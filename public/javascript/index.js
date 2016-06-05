@@ -23,7 +23,7 @@ $(document).ready(function() {
     if (window.localStorage.original) {
         editor.session.setValue(localStorage.original);
     }
-    $('#calc').click(function() {
+    $('#parseButton').click(function() {
 
         if (window.localStorage) {
             localStorage.original = editor.getValue();

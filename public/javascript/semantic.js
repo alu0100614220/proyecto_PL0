@@ -34,5 +34,4 @@ let createSymbolTable = (tree, symbolTable) => {
 
 function semantic(tree) {
     eachBlockPre(tree, createSymbolTable, symbolTableEmpty);
-    eachBlockPre2(tree, createSymbolTable, symbolTableEmpty);
 }

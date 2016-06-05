@@ -24,8 +24,8 @@ app.use('/', routes);
 
 
 // error handlers
-
-// development error handler
+// production error handler
+// no stacktraces leaked to user
 app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error', {
