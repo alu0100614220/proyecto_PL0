@@ -19,7 +19,6 @@ let addValSymbolTable = (symbolTable, val, type) => {
 
 let createSymbolTable = (tree, symbolTable) => {
 
-    console.log(tree)
     tree.symbolTable = {
         father: symbolTable
     };
@@ -37,7 +36,21 @@ let createSymbolTable = (tree, symbolTable) => {
     }
 };
 
+// let check = (symbolTable, val, type) => {
+   
+//     if(symbolTable.type == "FUNCTION"){
+//         symbolTable.block.functions.forEach((val) => check(symbolTable.symbolTable, val, "xd"));
+//     }
+
+//     if(symbolTable.type == "BLOCK"){
+//         symbolTable.functions.forEach((val) => check(symbolTable.symbolTable, val, "xd"));
+//     }
+// }
+
 function semantic(tree) {
     eachBlockPre(tree, createSymbolTable, symbolTableEmpty);
     eachBlockPre(tree, createSymbolTable, tree.symbolTable);
+ //   eachBlockPre(tree, check, tree.symbolTable);
+ 
+    tree["symbolTable"].father = {};
 }
