@@ -1,0 +1,55 @@
+html {
+    background-color: #eee;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #222;
+}
+
+header a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.app {
+    margin-top: 10%;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+span {
+    color: green;
+}
+
+@media (max-width: 550px) {
+    header {
+        text-align: center;
+    }
+}
+a{
+    margin: 10%;
+}
+#test{
+    background-color: black;
+    color:white;
+    font-size: 200%;
+    position:fixed;
+    margin: center;
+    text-align: center;
+    border: 1px solid black;
+    height: auto;
+    width: 200px;
+    bottom: 100px;
+}
+#test > a{
+    color: white;
+    text-decoration: none;
+}

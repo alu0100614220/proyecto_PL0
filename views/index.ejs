@@ -1,20 +1,31 @@
 <br>
 <div class="global_content">
- <div class="jaja">
+<header>
+        <div class="container">
+            <div class="row">
+                <a href="http://alu0100614220.github.io/">Adrián</a>
+                <a href="https://github.com/alu0100614220/proyecto_PL0">Repositorio del código</a>
+                <a href="https://en.wikipedia.org/wiki/PL/0">PL0 wikipedia</a>
+            </div>
+        </div>
+    </header>
+ <div class="divText">
    <div id="textArea"></div>
    <script src="src-min/ace.js" type="text/javascript" charset="utf-8"></script>
    <script src="javascript/index.js"></script>
    <script src="javascript/semantic.js"></script>
    <div id="button">
-     <button class="butEx" id="b1" type="button" onclick="loadFile('files/example1.txt');">Funciones Anidadas</button>
-     <button class="butEx" id="b2" type="button" onclick="loadFile('files/example2.txt');">If Then</button>
-     <button class="butEx" id="b6" type="button" onclick="loadFile('files/example6.txt');">While</button>
-     <br>
+     <button class="boton" type="button" onclick="loadFile('files/example1.txt');">Funciones Anidadas</button>
+     <button class="boton" type="button" onclick="loadFile('files/example2.txt');">If Then</button>
+     <button class="boton" type="button" onclick="loadFile('files/example6.txt');">While</button>
    </div>
-   <button id="parseButton" onclick="">Parser</button>
+  </div>
+   <div>
+    <button class="boton" id="parseButton" onclick="">Parser</button>
+  
  </div>
- <div class="xd">
-   <h3>Árbol generado</h3>
+ <div class="salida">
+   <h4>Árbol generado</h4>
    <textarea readonly id="exit"></textarea>
  </div>
 </div>

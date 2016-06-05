@@ -1,117 +1,52 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica;
-  background: -webkit-linear-gradient(black, grey);
-  background: linear-gradient(black, grey);
-  color: white;
-}
-
-h1 {
-  color: red;
-  font: 48px "Lucida Grande", Helvetica;
-  text-shadow: 2px 2px #ff4d4d;
-  text-align: center;
-}
-
-h2 {
-  color: #ff3333;
-  font: 36px "Lucida Grande", Helvetica;
-  text-shadow: 2px 2px #FF0000;
-  text-align: center;
-}
-
-.cube {
-  background: -webkit-linear-gradient(left, grey, black);
-  background: linear-gradient(to right, grey, black);
-  border: 2px solid grey;
-  box-shadow: 10px 10px 50px  11px #000;
-  padding: 2%;
-  margin: 2%;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
 }
 
 .butEx {
-  color: black;
-  box-shadow: 10px 10px 50px  3px #000;
+    color: black;
+    box-shadow: 1px 1px 1px 1px #000;
 }
 
 .butEx:hover {
-  box-shadow: 1px 1px 50px  12px #000;
-}
-
-#calc {
-  margin-top: 1%;
-  margin-left: 10%;
-  padding: 1%;
-  background-color: #66ffff;
-  border-radius: 50%;
-  box-shadow: 1px 1px 25px  12px #000;
-}
-
-#calc:hover {
-  background-color: #ff6666;
-  box-shadow: 1px 1px 50px  12px #000;
-}
-
-#calc:active {
-  background-color: #ff6666;
-  box-shadow: 1px 1px 18px  12px #000;
+    box-shadow: 1px 1px 1px 1px #000;
 }
 
 #exit {
-  background-color: #d9d9d9;
-  color: black;
-}
-#button{
-  margin: 0 auto;
-  text-align: center;
-  margin-left: -50%;
-}
-#parseButton{
-  margin-top: 10px;
-  color:black;
-  width:200px;
-  height:30px;
-}
-#menuCab {
-  margin: 0;
-  width: 100%;
-  height: 10%;
-}
-#menuCab ul {
-  margin: 0;
-  display: block;
-}
-#menuCab li {
-  display: inline-block;
-  margin-top: 1%;
-  margin-right: 5%;
-}
-#menuCab a {
-  color: white;
-  text-decoration: none;
-}
-#menuCab a:hover {
-  color: grey;
-  text-shadow: 2px 5px 5px;
+    background-color: #d9d9d9;
+    color: black;
 }
 
-#instruc {
-  background-color: white;
-  color: black;
-  border: 2px solid grey;
-  box-shadow: 10px 10px 50px  11px #000;
-  padding: 2%;
-  margin: 2%;
+#button {
+    margin: 0 auto;
+    display:block;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0%;
+}
+#divText{
+  display:block;
+}
+#parseButton {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0%;
+    position: relative;
+    top: 45%;
+    left: 45%;
+    width: 200px;
+    height: 50px;
 }
 
-#textArea , #exit {
-  width: 50%;
-  margin: 0 auto;
-  margin-left: 15%;
-  height: 300px;
-  width: 70%;
+#textArea,
+#exit {
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 15%;
+    height: 300px;
+    width: 70%;
 }
