@@ -1,0 +1,8 @@
+# Ejemplo Cadena
+
+fun saluda() dev string
+{
+   cadena = "Hola Mundo";
+   dev cadena;
+}
+ffun

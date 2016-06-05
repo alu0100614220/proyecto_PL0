@@ -1,0 +1,14 @@
+# Ejemplo Bucle Mientras
+
+fun  contador () dev string
+{
+ a = 0;
+ b = 1;
+ mientras a != 3 hacer
+  a = a + 1;
+  b = a + b
+ fmientras;
+
+ dev "Ha llegado al final";
+}
+ffun

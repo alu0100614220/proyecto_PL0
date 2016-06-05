@@ -1,0 +1,10 @@
+const b=3;
+function bucle(b);
+{
+	while a<b do{
+		a=a+1;
+	}
+};
+{
+	
+}

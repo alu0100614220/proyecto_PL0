@@ -1,0 +1,14 @@
+# Ejemplo Condiciones
+
+fun  condicion ( double dob, string palabra) dev nada
+{
+ si dob == 4 hacer
+   dob = dob * 4.2;
+   si palabra == "termina" hacer
+     palabra = "finalizado"
+   si_no
+     palabra = "continuar"
+   fsi
+ fsi;
+}
+ffun

@@ -1,0 +1,22 @@
+const a = 0;
+function funcion1 ();
+const b = 2;
+var prueba;
+{
+	c = b*a
+}; 
+function funcion2 ();
+	const b = 3;
+	var variableF2;
+	function funcion3(a);
+		const constanteF2 = 3;
+		var variableF3;
+	{
+		variableF3=F2*a;
+	};
+{
+	
+};
+{
+ b=b*a;	
+}

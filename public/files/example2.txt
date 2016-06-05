@@ -1,0 +1,9 @@
+const uno=1,dos=2;
+function prueba();
+	var a;
+	if a==3 then{
+		a=3;
+	};
+{
+	
+}
