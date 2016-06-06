@@ -1,6 +1,5 @@
-const a = 0;
+const a = 0, b = 1;
 function funcion1 ();
-const b = 2;
 var prueba;
 {
 	c = b*a
